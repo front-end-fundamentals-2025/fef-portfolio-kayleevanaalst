@@ -1,0 +1,44 @@
+
+* {
+    font-family: "Lato", serif;
+}
+* {
+    color: black;
+}
+
+/* HEADER */
+
+#logo {
+    font-weight: 600;
+    font-size: 1.3rem;
+    border: 2px solid green;
+    display: inline;
+    padding: 5px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+a {
+    color: black;
+}
+
+/* MAIN */
+
+.main-img {
+    width: 30%;
+}
+
+/* ABOUT ME */
+.aboutme-img {
+    width: 10%;
+    height: 20%;
+}
+/* FOOTER */
+
+footer {
+    margin-top: 3rem;
+    border-top: 1px solid green;
+}
