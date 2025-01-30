@@ -55,7 +55,7 @@ a {
     width: 40%;
 }
 
-/*PROJECTS*/
+/* PROJECTS PAGE */
 figure {
     margin-left: 0%;
     grid-area: img;
@@ -90,16 +90,16 @@ footer {
     border-top: 1px solid green;
 }
 
-/*HARRIS REED */
+/* HARRIS REED PAGE */
 .harrisreed-img {
     width: 20%;
     height: 20%;
 }
 
-/*BACKGROUND COLOR*/
+/* BACKGROUND COLOR */
 html, body {
     background-color: #ecebe6; 
-    margin: 0; 
+    margin: 1; 
     padding: 0; 
     height: 100%; 
   }
