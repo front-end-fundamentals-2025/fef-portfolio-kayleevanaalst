@@ -9,7 +9,6 @@ header{
     display: flex;
     align-items: center;
 }
-
 #logo {
     font-weight: 600;
     font-size: 1.3rem;
@@ -17,7 +16,7 @@ header{
     display: inline;
     padding: 5px;
     font-family: 'Playwrite VN', serif; 
-    color: palevioletred;
+    color: rgb(202, 104, 136);
 }
 
 ul {
@@ -49,6 +48,56 @@ a {
     margin-bottom: 1rem;
     }
 }
+/*corner logo*/
+div {
+width: 125px;
+height: 20px;
+margin-left: 1rem;
+margin-top: 15px;
+border-radius: 10%;
+position: absolute;
+top: 4%;
+right: 7%;
+
+font-weight: 600;
+    font-size: 2rem;
+    display: inline-block;
+    padding: 15px;
+    font-family: "Playfair", serif;
+    color: white;
+    background-color: rgba(186, 98, 127, 0.762);
+
+    display: flex;
+    list-style: none;
+    padding-left: 10px;
+    padding-top: 3px;
+
+animation-name: shake;
+animation-duration: 1s;
+}
+
+@keyframes shake {
+    25% {
+        transform: scale(1.2);
+    }
+
+    40% {
+        transform: rotate(-20deg) scale(1.2);
+    }
+
+    50% {
+        transform: rotate(20deg) scale(1.2);
+    }
+
+    60% {
+        transform: rotate(-20deg) scale(1.2);
+    }
+
+    70% {
+        transform: rotate(20deg) scale(1.2);
+    }
+}
+
 
 /* MAIN */
 .main-img {
@@ -64,6 +113,7 @@ figure {
 .projects-img {
     width: 80%;
 }
+
 
 @media screen and (min-width: 520px) {
     .projects-container {
