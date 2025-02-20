@@ -153,4 +153,28 @@ html, body {
     padding: 0; 
     height: 100%; 
   }
+
+/* LIGHT THEME*/
+.light-theme {
+    background-color: #ecebe6;
+    color:black
+}
+
+/* DARK THEME */
+.dark-theme {
+    background-color: #333;
+    color:white
+}
   
+/* BUTTON STYLE */
+#theme-toggle {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3 ease;
+}
+
+#theme-toggle:hover {
+    background-color: #444;
+}
