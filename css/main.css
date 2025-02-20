@@ -1,7 +1,6 @@
 
 * {
     font-family: "Lato", serif;
-    color: black;
 }
 
 /* HEADER */
@@ -27,10 +26,6 @@ ul {
 
 li {
     margin-left: 4rem;
-}
-
-a {
-    color: black;
 }
 
 @media screen and (max-width:520px) {
@@ -147,32 +142,37 @@ footer {
 }
 
 /* BACKGROUND COLOR */
-html, body {
-    background-color: #ecebe6; 
-    margin: 1; 
-    padding: 0; 
-    height: 100%; 
-  }
+
 
 /* LIGHT THEME*/
 .light-theme {
     background-color: #ecebe6;
-    color:black
+    color:black;
+
+    a {
+        color:black;
+    }
 }
 
 /* DARK THEME */
 .dark-theme {
     background-color: #333;
-    color:white
+    color:white;
+
+    a {
+        color: white;
+    }
 }
   
 /* BUTTON STYLE */
 #theme-toggle {
     margin-top: 10px;
-    padding: 10px 20px;
-    font-size: 16px;
+    margin-left: 40px;
+    margin-right: 5px;
+    padding: 5px 10px;
+    font-size: 12px;
     cursor: pointer;
-    transition: background-color 0.3 ease;
+    transition: background-color 0.3s ease;
 }
 
 #theme-toggle:hover {
