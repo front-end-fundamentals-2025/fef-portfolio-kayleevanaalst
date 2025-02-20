@@ -147,20 +147,20 @@ footer {
 /* LIGHT THEME*/
 .light-theme {
     background-color: #ecebe6;
-    color:black;
+    color:rgb(68, 68, 68);
 
     a {
-        color:black;
+        color:rgb(68, 68, 68);;
     }
 }
 
 /* DARK THEME */
 .dark-theme {
-    background-color: #333;
-    color:white;
+    background-color: #373535;
+    color:rgb(225, 218, 218);
 
     a {
-        color: white;
+        color: rgb(225, 218, 218);
     }
 }
   
