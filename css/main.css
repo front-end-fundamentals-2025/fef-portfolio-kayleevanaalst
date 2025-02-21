@@ -1,180 +1,172 @@
-
 * {
-    font-family: "Lato", serif;
+  font-family: "Lato", serif;
 }
 
 /* HEADER */
-header{
-    display: flex;
-    align-items: center;
+header {
+  display: flex;
+  align-items: center;
 }
 #logo {
-    font-weight: 600;
-    font-size: 1.3rem;
-    border: 2px solid green;
-    display: inline;
-    padding: 5px;
-    font-family: 'Playwrite VN', serif; 
-    color: rgb(202, 104, 136);
+  font-weight: 600;
+  font-size: 1.3rem;
+  border: 2px solid green;
+  display: inline;
+  padding: 5px;
+  font-family: "Playwrite VN", serif;
+  color: rgb(202, 104, 136);
 }
 
 ul {
-    display: flex;
-    list-style: none;
-    padding-left: 0px;
+  display: flex;
+  list-style: none;
+  padding-left: 0px;
 }
 
 li {
-    margin-left: 4rem;
+  margin-left: 4rem;
 }
 
-@media screen and (max-width:520px) {
-    header, ul {
-        flex-direction: column;
-        align-items: start;
-    }
+@media screen and (max-width: 520px) {
+  header,
+  ul {
+    flex-direction: column;
+    align-items: start;
+  }
 
-    ul {
+  ul {
     margin-top: 0;
-    }
+  }
 
-    li {
+  li {
     margin-left: 0;
     margin-bottom: 1rem;
-    }
+  }
 }
 /*corner logo*/
 div {
-width: 125px;
-height: 20px;
-margin-left: 1rem;
-margin-top: 15px;
-border-radius: 10%;
-position: absolute;
-top: 4%;
-right: 7%;
+  width: 125px;
+  height: 20px;
+  margin-left: 1rem;
+  margin-top: 15px;
+  border-radius: 10%;
+  position: absolute;
+  top: 4%;
+  right: 7%;
 
-font-weight: 600;
-    font-size: 2rem;
-    display: inline-block;
-    padding: 15px;
-    font-family: "Playfair", serif;
-    color: white;
-    background-color: rgba(186, 98, 127, 0.762);
+  font-weight: 600;
+  font-size: 2rem;
+  display: inline-block;
+  padding: 15px;
+  font-family: "Playfair", serif;
+  color: white;
+  background-color: rgba(186, 98, 127, 0.762);
 
-    display: flex;
-    list-style: none;
-    padding-left: 10px;
-    padding-top: 3px;
+  display: flex;
+  padding-left: 10px;
+  padding-top: 3px;
 
-animation-name: shake;
-animation-duration: 1s;
+  animation-name: shake;
+  animation-duration: 1s;
 }
 
 @keyframes shake {
-    25% {
-        transform: scale(1.2);
-    }
+  25% {
+    transform: scale(1.2);
+  }
 
-    40% {
-        transform: rotate(-20deg) scale(1.2);
-    }
+  40% {
+    transform: rotate(-20deg) scale(1.2);
+  }
 
-    50% {
-        transform: rotate(20deg) scale(1.2);
-    }
+  50% {
+    transform: rotate(20deg) scale(1.2);
+  }
 
-    60% {
-        transform: rotate(-20deg) scale(1.2);
-    }
-
-    70% {
-        transform: rotate(20deg) scale(1.2);
-    }
+  60% {
+    transform: rotate(-20deg) scale(1.2);
+  }
 }
-
 
 /* MAIN */
 .main-img {
-    width: 40%;
+  width: 40%;
 }
 
 /* PROJECTS PAGE */
 figure {
-    margin-left: 0%;
-    grid-area: img;
+  margin-left: 0%;
+  grid-area: img;
 }
 
 .projects-img {
-    width: 80%;
+  width: 80%;
 }
-
 
 @media screen and (min-width: 520px) {
-    .projects-container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }   
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
-@media screen and (min-width:750px) {
-    .projects-container {
-        grid-template-columns: repeat(3,1fr);
-    }
+@media screen and (min-width: 750px) {
+  .projects-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 /* ABOUT ME */
 .aboutme-img {
-    width: 10%;
-    height: 20%;
+  width: 10%;
+  height: 20%;
 }
 
 /* FOOTER */
 footer {
-    margin-top: 3rem;
-    border-top: 1px solid green;
+  margin-top: 3rem;
+  border-top: 1px solid green;
 }
 
 /* HARRIS REED PAGE */
 .harrisreed-img {
-    width: 20%;
-    height: 20%;
+  width: 20%;
+  height: 20%;
 }
 
 /* BACKGROUND COLOR */
 
-
 /* LIGHT THEME*/
 .light-theme {
-    background-color: #ecebe6;
-    color:rgb(68, 68, 68);
+  background-color: #ecebe6;
+  color: rgb(68, 68, 68);
 
-    a {
-        color:rgb(68, 68, 68);;
-    }
+  a {
+    color: rgb(68, 68, 68);
+  }
 }
 
 /* DARK THEME */
 .dark-theme {
-    background-color: #373535;
-    color:rgb(225, 218, 218);
+  background-color: #373535;
+  color: rgb(225, 218, 218);
 
-    a {
-        color: rgb(225, 218, 218);
-    }
+  a {
+    color: rgb(225, 218, 218);
+  }
 }
-  
+
 /* BUTTON STYLE */
 #theme-toggle {
-    margin-top: 10px;
-    margin-left: 40px;
-    margin-right: 5px;
-    padding: 5px 10px;
-    font-size: 12px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-right: 5px;
+  padding: 5px 10px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 #theme-toggle:hover {
-    background-color: #444;
+  background-color: #444;
 }
